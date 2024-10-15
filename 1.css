@@ -1,0 +1,155 @@
+@import url(http://awebfont.ir/css?id=1116);
+@font-face{
+    font-family:'B Yekan';
+    src:url('B_Yekan/Yekan.ttf') format('truetype');
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'B Yekan',tahoma,Arial;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+.header .h-right{
+    display: flex;
+}
+.header .h-right .h-menu{
+    padding-right: 50px;
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+}
+
+.h-item{
+    padding: 10px 20px;
+    color: #999;
+}
+
+.h-item:hover{
+    color: #288ed9;
+}
+.h-left{
+    display: flex;
+}
+.h-left p{
+    color: #288ed9;
+    padding: 5px 20px;
+}
+.h-left .login{
+    color: #fff;
+    border-radius: 30px;
+    background-color: #288ed9;
+}
+
+/* box1 */
+.box1{
+    display: flex;
+    align-items: center;
+}
+.b1-right{
+    width: 40%;
+}
+.title{
+    color: #288ed9;
+    margin: 50px 0 10px;
+}
+.desc{
+    color: #288ed9;
+    margin-bottom: 15px;
+}
+.info{
+    text-align: justify;
+    color: #7e7e7e;
+    line-height: 27px;
+}
+.b1-left{
+    align-items: center;
+    width: 60%;
+    padding-right: 20px;
+}
+
+/* box2 */
+
+.box2{
+    background: linear-gradient(to bottom, rgba(214, 238, 255, 0) 0, #d6eeff 100%);
+}
+.b-head{
+    text-align: center;
+    padding-top: 100px;
+}
+.having{
+    display: flex;
+    padding: 100px 0;
+}
+.contain{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 40px 15px 20px;
+    color: #5e5e5e;
+    text-align: justify;
+    margin: 0 10px;
+    position: relative;
+}
+.host{
+    position: absolute;
+    background-color: #288ed9;
+    color: #fff;
+    width: 150px;
+    border-radius: 25px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -20px;
+    padding: 5px 20px;
+    text-align: center;
+}
+/* box3 */
+.cloud-host{
+    display: flex;
+    padding: 10px  50px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.c-right{
+    width: 50%;
+}
+.c-head{
+    color: #288ed9;
+    margin:0 0 20px;
+}
+.c-content{
+    color: #7e7e7e;
+    text-align: justify;
+    line-height: 27px;
+}
+.c-left{
+    width: 50%;
+    padding:40px;
+}
+.cloud-host:nth-child(even){
+    flex-direction: row-reverse;
+}
+/* footer */
+.footer{
+    text-align: center;
+    color: #999;
+    padding: 50px 0;
+}
+.section i{
+    font-size: 25px;
+    margin:  10px;
+}
